@@ -1,0 +1,31 @@
+.example-card {
+  max-width: 200px;
+  margin: 1rem;
+
+  display:flex;
+  flex-direction: column;
+}
+  
+.example-header-image {
+  background-size: cover;
+}
+  
+.lista-filmes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img, a {
+  max-width: 13rem;
+  justify-content: center;
+  align-self: center;
+}
+
+.icones{
+  display:flex;
+  align-items: flex-start;
+}
+
+.mat-card-subtitle, .mat-card-title {
+  text-align: center;
+}
